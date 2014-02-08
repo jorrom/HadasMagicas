@@ -38,7 +38,7 @@ header h1
 	color: #FF9217;
 	font-size: 1.5em;
 	font-weight: normal; /*impide que el titulo este en negrita*/
-	margin: 0 70px 0 0;
+	margin: 10px 70px 0 0;
 	vertical-align: middle;
 }
 header h2
@@ -47,14 +47,12 @@ header h2
 	color: #85bb1f;
 	font-size: 1.2em;
 	font-weight: normal; /*impide que el titulo este en negrita*/
-	margin: 0 70px 0 0;
-	text-align: center;
-	vertical-align: middle;
+	margin: 0 70px 0 150px;
 }
 
 header #redes
 {
-	margin: 0.5em 0.5em 0 0;
+	margin: 1.5em 0.7em 0 0;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -62,13 +60,13 @@ header #redes
 header #redes img
 {
 	border-radius: 20%;
-	width: 40px;
+	width: 35px;
 	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
 }
 
 nav
 {
-	background: #80BCA3;
+	background: orange;
 	position: relative;
 }
 nav ul
@@ -93,7 +91,10 @@ nav ul li a
 }
 nav ul li a:hover
 {
-	background: #344B54;
+	background: #85bb1f;
 }
 
-
+#contenedor
+{
+	height: 400px;
+}
