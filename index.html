@@ -5,14 +5,26 @@
 	<meta name="description" content="Hadas Magicas brinda servicios de Animaciones para toda clase de eventos infantiles, como asi tambien eventos par adultos " />
 	<title>Hadas Magicas</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/flexslider.css" />
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/estilos.css" />
 	<script src="frefixfree.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+		// Can also be used with $(document).ready()
+		$(window).load(function() {
+		  $('.flexslider').flexslider({
+		    animation: "slide"
+		  });
+		});
+	</script>
 </head>
 <body>
 	<header>
 		<figure id="logo">
-			<img src="image/logo.jpg" />
+			<img src="img/logo.jpg" />
 		</figure>
 		<h1>
 			Hadas Magicas
@@ -21,8 +33,8 @@
 			Animaciones para Eventos Infantiles
 		</h2>
 		<figure id="redes">
-			<a href="https://www.facebook.com/hadas.magicas.7" target="_blank"><img src="image/face.jpg"></a>
-			<a href="#"><img src="image/twitter.jpg"></a>
+			<a href="https://www.facebook.com/hadas.magicas.7" target="_blank"><img src="img/face.jpg"></a>
+			<a href="#"><img src="img/twitter.jpg"></a>
 		</figure>
 	</header>
 	<nav>
@@ -34,6 +46,23 @@
 		</ul>
 	</nav>
 	<section id="contenedor">
+		<!-- Place somewhere in the <body> of your page -->
+		<div class="flexslider">
+		  <ul class="slides">
+		    <li>
+		      <img src="img/foto02.jpg" />
+		    </li>
+		    <li>
+		      <img src="img/foto03.jpg" />
+		    </li>
+		    <li>
+		      <img src="img/foto04.jpg" />
+		    </li>
+		    <li>
+		      <img src="img/foto05.jpg" />
+		    </li>
+		  </ul>
+		</div>
 		<p>
 			Hadas Magicas, es la propuesta ideal para dar solucion inmediata a salones, hogares, colegios, en cualquier lugar donde dicha propuesta sea posible.
 			Ya que el objetivo principal es pasar un momento inolvidable.
