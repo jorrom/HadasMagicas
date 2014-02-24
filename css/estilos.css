@@ -1,104 +1,93 @@
 a
 {
-	color: #22BCE0;
+	color: #FFFFFF;
 }
 body
 {
 	font-size: 16px;
 }
 
-footer
-{
-	background: #BBB3FF;
-	padding: 0.5em;
-	text-align: center;
-}
 header
 {
-	background: white;
-	/*color: white;*/
-	overflow: hidden;
-	padding: 0.5em;
+	background: #367fb8;
+	color: #FFFFFF;
+	height: 270px;
 	position: relative;
+	width: 800px;
 }
 header figure
 {
 	float: left;
+	padding: 40px 0px 0px 0px;
 }
-header #logo img
+header nav
 {
-	border-right: 1px solid gray;
-	margin-right: 0.5em;
-	padding-right: 0.5em;
-	width: 50px;
-}
-header h1
-{
-	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
-	color: #FF9217;
-	font-size: 1.5em;
-	font-weight: normal; /*impide que el titulo este en negrita*/
-	margin: 10px 70px 0 0;
-	vertical-align: middle;
-}
-header h2
-{
-	text-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
-	color: #85bb1f;
-	font-size: 1.2em;
-	font-weight: normal; /*impide que el titulo este en negrita*/
-	margin: 0 70px 0 150px;
-}
-
-header #redes
-{
-	margin: 1.5em 0.7em 0 0;
 	position: absolute;
 	right: 0;
 	top: 0;
 }
-header #redes img
+header ul li a
 {
-	border-radius: 20%;
-	width: 35px;
-	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	text-decoration: none;
 }
-
-nav
-{
-	background: orange;
-	position: relative;
-}
-nav ul
+header ul
 {
 	list-style: none;
-	margin: 0;
-	padding: 0 6em 0 .5em;
 }
-nav ul li
+header ul #Home
 {
-	display: inline-block;
-	margin: 0 0.5em 0 0;
+	background: #ecc307;
+	padding: 50px;
 }
-
-nav ul li a 
+header ul #Nosotros
 {
-	color: white;
-	display: block;
-	padding: 0.5em;
-	text-decoration: none;
-	-webkit-transition:.3s;
+	background: #a65f5f;
+	padding: 50px;
 }
-nav ul li a:hover
+header ul #Servicios
 {
-	background: #85bb1f;
+	background: #82b965;
+	padding: 50px;
 }
-
-#contenedor
+header ul #Fotos
 {
-	/*height: 400px;*/
+	background: #de9117;
+	padding: 25px;
+	width: 25px;
 }
-
-/* estilos para la galeria de fotos*/
-
-                
+header ul #Contactos
+{
+	background: #d53f40;
+	padding: 25px;
+	width: 25px;
+}
+header ul #Face
+{
+	background: #02a5e6;
+	padding: 25px;
+	width: 25px;
+}
+header ul #Twitter
+{
+	background: #32ccfe;
+	padding: 25px;
+	width: 25px;
+}
+h1
+{
+	font-size: 2.5em;
+	font-family: Tahoma;
+	padding: 80px 25px 0 0;
+}
+h2
+{
+	font-size: 1em;
+}
+header figure #logo
+{
+	width: 10px;
+}
+#contenedor .flexslider
+{
+	width: 800px;
+}
