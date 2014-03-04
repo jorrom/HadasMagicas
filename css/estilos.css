@@ -4,64 +4,108 @@ a
 }
 body
 {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
-
 header
 {
-	background: #367fb8;
+	/*background: #566424;*/
+	background: -webkit-linear-gradient(top, #566424, #a0ba44);
+	background: -moz-linear-gradient(top, #566424, #a0ba44);
+	background: -o-linear-gradient(top, #566424, #a0ba44);
+	background: -ms-linear-gradient(top, #566424, #a0ba44);
 	color: #FFFFFF;
-	height: 270px;
+	height: 100px;
 	position: relative;
-	width: 800px;
 }
 header figure
 {
 	float: left;
-	padding: 40px 0px 0px 0px;
+	margin: 0;
 }
-header nav
+header h1
 {
-	position: absolute;
-	right: 0;
-	top: 0;
+	font-size: 1.5em;
+	/*font-family: Tahoma;*/
+	margin: 17px 0;
+	padding: 10px 5px 10px 15px;
+	text-shadow: rgba(0,0,0,0.7) 3px 3px 7px;
 }
-header ul li a
+header h2
 {
+	font-size: 0.9em;
+	padding: 0 0 0 15px;
+}
+header #logo a img
+{
+	width: 65px;
+}
+nav
+{
+	/*width: 100%;*/
+}
+nav ul li a
+{
+	/*background: blue;*/
+	padding: 16px 0;
 	text-decoration: none;
 }
-header ul
+nav ul
 {
 	list-style: none;
+	margin: 5px 0;
+	padding: 0;
+
 }
-header ul #Home
+nav ul li
+{
+	display: inline-block;
+}
+nav ul li:hover
+{
+	border-radius: 15px;
+	box-shadow: 0 0 30px yellow;
+}
+nav ul #Nosotros
 {
 	background: #ecc307;
-	padding: 50px;
+	padding: 15px 0 15px 0;
+	font-size: 0.9em;
+	text-align: center;
+	width: 24%;
 }
-header ul #Nosotros
-{
-	background: #a65f5f;
-	padding: 50px;
-}
-header ul #Servicios
+nav ul #Servicios
 {
 	background: #82b965;
-	padding: 50px;
+	padding: 15px 0 15px 0;
+	font-size: 0.9em;
+	text-align: center;
+	width: 24%;
 }
-header ul #Fotos
+nav ul #Fotos
 {
 	background: #de9117;
-	padding: 25px;
-	width: 25px;
+	padding: 15px 0 15px 0;
+	font-size: 0.9em;
+	text-align: center;
+	width: 24%;
 }
-header ul #Contactos
+nav ul #Contactos
 {
 	background: #d53f40;
-	padding: 25px;
-	width: 25px;
+	padding: 15px 0 15px 0;
+	font-size: 0.9em;
+	text-align: center;
+	width: 24%;
 }
-header ul #Face
+
+#contenedor p 
+{
+	font-size: 0.9em;
+	padding: 0 10px;
+}
+
+/*header ul #Face
 {
 	background: #02a5e6;
 	padding: 25px;
@@ -72,22 +116,32 @@ header ul #Twitter
 	background: #32ccfe;
 	padding: 25px;
 	width: 25px;
-}
-h1
-{
-	font-size: 2.5em;
-	font-family: Tahoma;
-	padding: 80px 25px 0 0;
-}
-h2
-{
-	font-size: 1em;
-}
-header figure #logo
-{
-	width: 10px;
-}
+}*/
+
 #contenedor .flexslider
 {
-	width: 800px;
+	/*width: 640px;*/
+}
+
+@media screen and (min-width: 480px){
+	header
+	{
+		height: 200px;
+	}
+	header #logo a img
+	{
+		width: 150px;
+	}
+	header h1
+	{	
+		font-size: 2.5em;
+		/*font-family: Tahoma;*/
+		padding: 50px 25px 0 0;
+		text-shadow: rgba(0,0,0,0.7) 3px 3px 7px;
+	}
+	#contenido
+	{
+		overflow: hidden;
+	}
+	
 }
