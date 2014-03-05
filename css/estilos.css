@@ -121,6 +121,7 @@ header ul #Twitter
 #contenedor .flexslider
 {
 	/*width: 640px;*/
+	height: 100%;
 }
 
 @media screen and (min-width: 480px){
@@ -139,7 +140,7 @@ header ul #Twitter
 		padding: 50px 25px 0 0;
 		text-shadow: rgba(0,0,0,0.7) 3px 3px 7px;
 	}
-	#contenido
+	#contenedor
 	{
 		overflow: hidden;
 	}
