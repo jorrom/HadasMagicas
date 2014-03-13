@@ -7,6 +7,33 @@ body
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
+footer
+{
+	background: #82c4f3;
+	background: -webkit-linear-gradient(top, #ddecf6, #82c4f3);
+	background: -moz-linear-gradient(top, #ddecf6, #82c4f3);
+	background: -o-linear-gradient(top, #ddecf6, #82c4f3);
+	background: -ms-linear-gradient(top, #ddecf6, #82c4f3);
+	font-size: 0.8em;
+	margin: 0;
+	padding: 1px 0 1px 0;
+	text-align: center;
+	
+	
+}
+
+footer p a
+{
+	color: #000000;
+	font-size: 1.1em;
+	margin: 0;
+	text-decoration: none;
+}
+footer p a:hover
+{
+	color: #b96622;
+	text-transform: uppercase;
+}
 header
 {
 	/*background: #566424;*/
@@ -146,3 +173,48 @@ header ul #Twitter
 	}
 	
 }
+
+@media screen and (min-width: 800px){
+	.flexslider 
+	{
+		margin: 0 auto 35px auto;
+		width: 800px;
+		
+	}
+}
+
+@media screen and (min-width: 1024px){
+	body
+	{
+		width: 1024px;
+		margin: 0 auto;
+	}
+	header
+	{
+		display: inline-block;
+		width: 100%;
+	}
+	header #logo
+	{
+		/*margin: auto;*/
+		padding: 25px 0;
+	}
+	header figure
+	{
+		margin: auto 20px;
+	}
+
+	nav
+	{
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.flexslider 
+	{
+		margin: 0 auto 35px auto;
+		width: 850px;
+		
+	}
+}
+
