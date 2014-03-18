@@ -1,0 +1,55 @@
+SERVICIOS:
+Fiestas Tematicas
+Super Heroes
+Cincenses
+Kermeses
+Busqieda del Tesoro
+Princesas
+Hallowen
+Pop
+Fluor
+
+Participacion Pasiva:
+Globologia
+Recreacion
+Maquillaje
+Magia
+Pelos locos
+Manicura
+
+Disfraces:
+Esportacus
+La Cenicienta
+La Bella Durmiente
+Campanita
+Superman
+High School Musica
+Los Power Ranger
+
+Juegos:
+Juegos de Competencia
+Juegos de Traslados
+Juegos de Movilidad
+Juegos de Encastre
+Juegos Musicales
+Juegos de Participacion Grupal e Individual
+
+Otras Opciones:
+Fiestas Baby's
+Coordinaciones
+Obras de Titeres
+Bailes
+Plazas Blandas
+Fiesta Toon
+
+
+ANIMACIONES:
+Chicos:
+	Cumpleaños
+	Bautismo
+	Comunion
+Adultos
+	Cumpleaños
+	Aniversarios
+	Despedidas
+

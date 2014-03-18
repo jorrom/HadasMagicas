@@ -132,6 +132,15 @@ nav ul #Contactos
 	padding: 0 10px;
 }
 
+#contenedor #titulos
+{
+	color: #2555cf;
+	font-style: italic;
+	font-size: 1em;
+	font-weight:bold;
+	
+
+}
 /*header ul #Face
 {
 	background: #02a5e6;
@@ -151,6 +160,85 @@ header ul #Twitter
 	height: 100%;
 }
 
+#contenedor #Animaciones
+{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 100%;
+}
+
+#contenedor #Animaciones .ninos
+{
+	float: left;
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 50%;
+}
+#contenedor #Animaciones .adultos
+{
+	float: right;
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 50%;
+}
+#contenedor #Animaciones ul li,#Servicios ul li  
+{
+	font-size: 0.9em;
+}
+#btnsubmit
+{
+	border: none;
+	cursor: pointer;
+	padding: 100px 0;
+}
+label
+{
+	color: blue;
+}
+#nombre,#correo,#mensaje
+{
+	border-radius: 5px;
+	margin: 10px;
+}
+#mensaje
+{
+	width: 90%;
+}
+
+.dircorreo
+{
+	margin: 0 0 0 5px;
+}
+
+.facebook img
+{
+	width: 25px;
+}
+.facebook a
+{
+	color: #010101;
+	text-decoration: none;
+	margin: 0 0 0 5px;
+	/*padding: auto;*/
+}
+#contenedor .tit_correo
+{
+	color: #010101;
+}
+#tit1
+{
+	color: #4474df;
+	font-style: italic;
+}
+#subtitulos
+{
+	font-style: italic;
+	font-weight:bold;
+	color: #1f232b;
+}
+
+
 @media screen and (min-width: 480px){
 	header
 	{
@@ -167,11 +255,59 @@ header ul #Twitter
 		padding: 50px 25px 0 0;
 		text-shadow: rgba(0,0,0,0.7) 3px 3px 7px;
 	}
+	nav{
+		font-size: 1.2em;
+	}
 	#contenedor
 	{
 		overflow: hidden;
+		font-size: 1.1em;
 	}
-	
+
+	#contenedor #Servicios .Basicos
+	{
+		float: left;
+		height: 250px;
+		margin: 0 auto;
+		padding: 0 auto;
+		width: 50%;
+	}
+	#contenedor #Servicios .Pasiva
+	{
+		float: right;
+		height: 250px;
+		margin: 0 auto;
+		padding: 0 auto;
+		width: 50%;
+	}
+	#contenedor #Servicios .Disfraces
+		{
+		float: left;
+		height: 250px;
+		margin: 0 auto;
+		padding: 0 auto;
+		width: 50%;
+	}
+	#contenedor #Servicios .Juegos
+	{
+		float: right;
+		height: 250px;
+		margin: 0 auto;
+		padding: 0 auto;
+		width: 50%;
+	}
+	#contenedor #Servicios .OtrasOpciones
+		{
+		float: left;
+		height: 250px;
+		margin: 0 auto;
+		padding: 0 auto;
+		width: 50%;
+	}
+	.parrafonos
+	{
+		height: 300px;
+	}
 }
 
 @media screen and (min-width: 800px){
