@@ -1,7 +1,3 @@
-a
-{
-	color: #FFFFFF;
-}
 body
 {
 	font-family: 'Open Sans', sans-serif;
@@ -9,7 +5,7 @@ body
 }
 footer
 {
-	background: #82c4f3;
+	/*background: #82c4f3;*/
 	background: -webkit-linear-gradient(top, #ddecf6, #82c4f3);
 	background: -moz-linear-gradient(top, #ddecf6, #82c4f3);
 	background: -o-linear-gradient(top, #ddecf6, #82c4f3);
@@ -18,10 +14,11 @@ footer
 	margin: 0;
 	padding: 1px 0 1px 0;
 	text-align: center;
-	
-	
 }
-
+footer strong
+{
+	color: #343411;
+}
 footer p a
 {
 	color: #000000;
@@ -34,19 +31,18 @@ footer p a:hover
 	color: #b96622;
 	text-transform: uppercase;
 }
+
 header
 {
 	background: #de9117;
-	/*background: #566424;
-	background: -webkit-linear-gradient(top, #c07b0d, #d3a153);
-	background: -moz-linear-gradient(top, #c07b0d, #d3a153);
-	background: -o-linear-gradient(top, #c07b0d, #d3a153);
-	background: -ms-linear-gradient(top, #c07b0d, #d3a153);*/
 	color: #FFFFFF;
-	height: 100px;
-	position: relative;
+	display: inline-block;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
-header figure
+header #logo
 {
 	float: left;
 	margin: 0;
@@ -54,27 +50,34 @@ header figure
 header h1
 {
 	font-size: 1.5em;
-	/*font-family: Tahoma;*/
-	margin: 17px 0;
-	padding: 10px 5px 10px 15px;
+	margin: 0;
+	padding: 13px 0 0 10px;
 	text-shadow: rgba(0,0,0,0.7) 3px 3px 7px;
 }
 header h2
 {
 	font-size: 0.9em;
-	padding: 0 0 0 15px;
+	margin: 0;
+	padding: 0 0 0 150px;
+	
 }
 header #logo a img
 {
 	width: 65px;
 }
+label
+{
+	color: blue;
+}
 nav
 {
-	/*width: 100%;*/
+	margin: 0;
+	padding: 0;
 }
 nav ul li a
 {
 	/*background: blue;*/
+	color: #FFFFFF;
 	padding: 16px 0;
 	text-decoration: none;
 }
@@ -126,6 +129,10 @@ nav ul #Contactos
 	text-align: center;
 	width: 24%;
 }
+strong
+{
+	color: orange;
+}
 
 #contenedor p 
 {
@@ -155,12 +162,6 @@ header ul #Twitter
 	width: 25px;
 }*/
 
-#contenedor .flexslider
-{
-	/*width: 640px;*/
-	height: 100%;
-}
-
 #contenedor #Animaciones
 {
 	display: inline-block;
@@ -187,16 +188,18 @@ header ul #Twitter
 {
 	font-size: 0.9em;
 }
+#contenedor .flexslider
+{
+	/*width: 640px;*/
+	height: 100%;
+}
 #btnsubmit
 {
 	border: none;
 	cursor: pointer;
 	padding: 100px 0;
 }
-label
-{
-	color: blue;
-}
+
 #nombre,#correo,#mensaje
 {
 	border-radius: 5px;
@@ -212,16 +215,16 @@ label
 	margin: 0 0 0 5px;
 }
 
-.facebook img
+/*.facebook img, .twitter img
 {
 	width: 25px;
-}
-.facebook a
+}*/
+.Redes .redsocial a
 {
 	color: #010101;
+	display: inline-block;
 	text-decoration: none;
-	margin: 0 0 0 5px;
-	/*padding: auto;*/
+	margin: 0;
 }
 #contenedor .tit_correo
 {
@@ -239,6 +242,12 @@ label
 	color: #1f232b;
 }
 
+.tit_logo
+{
+	display: block;
+	float: left
+}
+
 
 @media screen and (min-width: 480px){
 	header
@@ -253,8 +262,13 @@ label
 	{	
 		font-size: 2.5em;
 		/*font-family: Tahoma;*/
-		padding: 50px 25px 0 0;
+		padding: 60px 25px 0 0;
 		text-shadow: rgba(0,0,0,0.7) 3px 3px 7px;
+	}
+	header h2
+	{
+		font-size: 1.3em;
+		padding: 0 0 0 245px;
 	}
 	nav{
 		font-size: 1.2em;
@@ -268,7 +282,7 @@ label
 	#contenedor #Servicios .Basicos
 	{
 		float: left;
-		height: 250px;
+		/*height: 250px;*/
 		margin: 0 auto;
 		padding: 0 auto;
 		width: 50%;
@@ -276,7 +290,7 @@ label
 	#contenedor #Servicios .Pasiva
 	{
 		float: right;
-		height: 250px;
+		/*height: 250px;*/
 		margin: 0 auto;
 		padding: 0 auto;
 		width: 50%;
@@ -284,7 +298,7 @@ label
 	#contenedor #Servicios .Disfraces
 		{
 		float: left;
-		height: 250px;
+		/*height: 250px;*/
 		margin: 0 auto;
 		padding: 0 auto;
 		width: 50%;
@@ -292,7 +306,7 @@ label
 	#contenedor #Servicios .Juegos
 	{
 		float: right;
-		height: 250px;
+		/*height: 250px;*/
 		margin: 0 auto;
 		padding: 0 auto;
 		width: 50%;
@@ -300,7 +314,7 @@ label
 	#contenedor #Servicios .OtrasOpciones
 		{
 		float: left;
-		height: 250px;
+		/*height: 250px;*/
 		margin: 0 auto;
 		padding: 0 auto;
 		width: 50%;
@@ -312,6 +326,11 @@ label
 }
 
 @media screen and (min-width: 800px){
+	header #logo
+	{
+		/*margin: auto;*/
+		padding: 25px 0 0 0;
+	}
 	.flexslider 
 	{
 		margin: 0 auto 35px auto;

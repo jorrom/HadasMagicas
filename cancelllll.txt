@@ -1,0 +1,39 @@
+QFCM3NC0 JOB04346 03/22/14   06:17:55 R.E....... U0999 
+
+  MODULE ID  LOCATION  SEQ. NUMBER 
+  ---------  --------  ----------- 
+  FCD3D008    CD008F        01     
+  FCD3NA01    F8000         01     
+
+ PDL OBTUVO 2 DOC-DLVY-OPT-ID PRIMARIOS    
+ RETURN CODE :                 0012        
+                                          
+
+R000-RTRN-CD: 0012               
+R000-SQLCODE: 000000000          
+CD008Q-GNRC-BUS-ARGT: 2500679177 
+CD008Q-BUS-ARGT-TYPE: I          
+RPT-ARGT-EFF-DT: 2014081         
+RPT-ARGT-END-DT: 2014081         
+
+
+QFC0OI01 JOB04345 03/22/14   06:45:16 R.E....... U0999
+
+  MODULE ID  LOCATION  SEQ. NUMBER
+  ---------  --------  -----------
+  FCD3D008    CD008F        01    
+  FCD3NA01    F8000         01    
+
+ PDL OBTUVO 2 DOC-DLVY-OPT-ID PRIMARIOS 
+ RETURN CODE :                 0012     
+
+R000-RTRN-CD: 0012              
+R000-SQLCODE: 000000000         
+CD008Q-GNRC-BUS-ARGT: 2500679177
+CD008Q-BUS-ARGT-TYPE: I         
+RPT-ARGT-EFF-DT: 2014081        
+RPT-ARGT-END-DT: 2014081        
+
+
+IM0231901
+IM0393936
